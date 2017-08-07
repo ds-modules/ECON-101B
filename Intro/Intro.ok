@@ -1,0 +1,15 @@
+{
+  "name": "Intro Notebook",
+  "endpoint": "cal/econ101b/sp18/intronotebook",
+  "src": [
+    "intro.ipynb"
+  ],
+  "tests": {
+      "ok_tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
