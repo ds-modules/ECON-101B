@@ -1,24 +1,15 @@
 test = {
-  'name': 'Test Example',
+  'name': 'q05',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> # can put comments here
-          >>> 4 == 4
+          >>> all(match == True for match in total_unemployed == data[:,1])
           True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> # second case
-          >>> 3 == 4
+          >>> all(match == True for match in unemp_15_weeks == data[:,2])
           True
-          >>> # this will fail
           """,
           'hidden': False,
           'locked': False
