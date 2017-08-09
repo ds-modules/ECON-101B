@@ -1,12 +1,13 @@
 test = {
-  'name': 'Question 12',
+  'name': 'Intro Test 4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> .02 < probability_clinton < .1
+          >>> # first case
+          >>> replace_with_y([2, 5, 63, 29, 1, 49, 17, 24], 7, 18) == [2, 5, 18, 29, 1, 18, 17, 18]
           True
           """,
           'hidden': False,

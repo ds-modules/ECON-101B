@@ -1,19 +1,18 @@
 test = {
-  'name': 'Question 5',
+  'name': 'q06',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> new_clinton_df = make_dataframe(clinton_tweets)
-          >>> len(new_clinton_df) == len(clinton_tweets)
+          >>> all(match == True for match in total_unemployed == data[:,1])
           True
-          >>> 'text' in new_clinton_df
+          >>> all(match == True for match in hpi == data[:,7])
           True
-          >>> 'created_at' in new_clinton_df
+          >>> all(match == True for match in y_ == model.predict(x))
           True
-          >>> 'source' in new_clinton_df
+          >>> prediction <= 147 and prediction >= 146
           True
           """,
           'hidden': False,

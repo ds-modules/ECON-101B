@@ -1,19 +1,14 @@
 test = {
-  'name': 'Question 5',
+  'name': 'q05',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> new_clinton_df = make_dataframe(clinton_tweets)
-          >>> len(new_clinton_df) == len(clinton_tweets)
+          >>> all(match == True for match in total_unemployed == data[:,1])
           True
-          >>> 'text' in new_clinton_df
-          True
-          >>> 'created_at' in new_clinton_df
-          True
-          >>> 'source' in new_clinton_df
+          >>> all(match == True for match in unemp_15_weeks == data[:,2])
           True
           """,
           'hidden': False,

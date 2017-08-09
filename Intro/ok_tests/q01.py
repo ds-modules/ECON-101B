@@ -1,12 +1,13 @@
 test = {
-  'name': 'Question 12',
+  'name': 'Intro Test 1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> .02 < probability_clinton < .1
+          >>> # first case
+          >>> question_1() == 75.6
           True
           """,
           'hidden': False,
