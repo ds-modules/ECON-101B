@@ -1,0 +1,1 @@
+Running freeresponse.py in a directory will parse all of the free response answers from a notebook. Will update further as our grading system evolves.
