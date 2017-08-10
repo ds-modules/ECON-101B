@@ -25,7 +25,7 @@ test = {
         {
           'code': r"""
           >>> # third case
-          >>> last_of_sliced == my_list_sliced[-1]
+          >>> last_of_sliced == my_list_sliced[4]
           True
           """,
           'hidden': False,

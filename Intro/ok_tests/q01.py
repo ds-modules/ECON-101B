@@ -8,10 +8,6 @@ test = {
           'code': r"""
           >>> x == 10.5
           True
-          >>> y == 7.2
-          True
-          >>> combo == 75.6
-          True
           """,
           'hidden': False,
           'locked': False
@@ -26,7 +22,8 @@ test = {
         },
         {
           'code': r"""
-          >>> combo == 75.6
+          >>> import numpy as np
+          >>> np.isclose(combo, 75.6)
           True
           """,
           'hidden': False,
