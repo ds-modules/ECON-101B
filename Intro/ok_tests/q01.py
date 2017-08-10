@@ -6,13 +6,33 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # first case
-          >>> question_1() == 75.6
+          >>> x == 10.5
+          True
+          >>> y == 7.2
+          True
+          >>> combo == 75.6
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> y == 7.2
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> combo == 75.6
           True
           """,
           'hidden': False,
           'locked': False
         }
+          
       ],
       'scored': True,
       'setup': '',
