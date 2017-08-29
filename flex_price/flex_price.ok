@@ -1,0 +1,15 @@
+{
+  "name": "Flexible Price",
+  "endpoint": "cal/econ101b/sp18/flex_price",
+  "src": [
+    "flex_price.ipynb"
+  ],
+  "tests": {
+      "ok_tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
