@@ -3,6 +3,8 @@
 
 **Developers: Alex Chan, Nathan Magee, Glen Park, Ronald Walker**
 
+Creating a semester's worth of problem sets that will make use of Berkeley's computing infrastructure. The assignments explore data processing, visualization, and model building on macroecon related data sets, such as FRED's GDP data and BLS's unemployment data. The module also uses autograding features to give immediate feedback to the students for early practice problems to let them know if they are on the right path.
+
 [Class Piazza](https://piazza.com/berkeley/spring2018/econ101b)
 
 ## Notebook Links
