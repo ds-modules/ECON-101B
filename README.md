@@ -8,4 +8,8 @@ Creating a semester's worth of problem sets that will make use of Berkeley's com
 [Class Piazza](https://piazza.com/berkeley/spring2018/econ101b)
 
 ## Notebook Links
-[Intro](http://datahub.berkeley.edu/user-redirect/interact?account=ds-modules&repo=ECON-101B&branch=master&path=Intro)
+[Intro](http://datahub.berkeley.edu/user-redirect/interact?account=ds-modules&repo=ECON-101B&branch=master&path=Intro%20(Problem%20Set%201)/intro.ipynb)
+
+[Problem Set 2](http://datahub.berkeley.edu/user-redirect/interact?account=ds-modules&repo=ECON-101B&branch=master&path=Problem%20Set%202/Problem%20Set%202.ipynb)
+
+[Problem Set 3](http://datahub.berkeley.edu/user-redirect/interact?account=ds-modules&repo=ECON-101B&branch=master&path=Problem%20Set%203/flex_price.ipynb)
