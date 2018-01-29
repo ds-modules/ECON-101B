@@ -6,7 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> question_3 == np.array([15, 35, 50, 0, 25, 30, 20, 105, 45, 15, 80])
+          >>> import numpy as np
+          >>> np.all(question_3 == np.array([15, 35, 50, 0, 25, 30, 20, 105, 45, 15, 80]))
           True
           """,
           'hidden': False,
